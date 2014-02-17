@@ -1,0 +1,28 @@
+{
+  "name": "metro-server",
+  "version": "0.0.0",
+  "description": "server-side companion for metropolitan retail app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "IBM",
+    "BlueMix",
+    "demo",
+    "iOS",
+    "SMS",
+    "VoIP"
+  ],
+  "author": "Kevin Whinnery",
+  "license": "MIT",
+  "dependencies": {
+    "twilio": "~1.5.0",
+    "express": "~3.4.8",
+    "ejs": "~0.8.5",
+    "gopher": "0.0.5"
+  },
+  "engines": {
+    "node":"0.10.21"
+  }
+}

@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0A748DD318AD506700EACFBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A748DD218AD506700EACFBF /* Foundation.framework */; };
+		0A748DD518AD506700EACFBF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A748DD418AD506700EACFBF /* CoreGraphics.framework */; };
+		0A748DD718AD506700EACFBF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A748DD618AD506700EACFBF /* UIKit.framework */; };
+		0A748DDD18AD506700EACFBF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A748DDB18AD506700EACFBF /* InfoPlist.strings */; };
+		0A748DDF18AD506700EACFBF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A748DDE18AD506700EACFBF /* main.m */; };
+		0A748DE318AD506700EACFBF /* METAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A748DE218AD506700EACFBF /* METAppDelegate.m */; };
+		0A748DE518AD506700EACFBF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0A748DE418AD506700EACFBF /* Images.xcassets */; };
+		0A748DEC18AD506800EACFBF /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A748DEB18AD506800EACFBF /* XCTest.framework */; };
+		0A748DED18AD506800EACFBF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A748DD218AD506700EACFBF /* Foundation.framework */; };
+		0A748DEE18AD506800EACFBF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0A748DD618AD506700EACFBF /* UIKit.framework */; };
+		0A748DF618AD506800EACFBF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0A748DF418AD506800EACFBF /* InfoPlist.strings */; };
+		0A748DF818AD506800EACFBF /* MetropolitanTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A748DF718AD506800EACFBF /* MetropolitanTests.m */; };
+		0A748E1518AD924100EACFBF /* METMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0A748E1318AD924100EACFBF /* METMenuViewController.m */; };
+		0A748E1618AD924100EACFBF /* METMenuViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0A748E1418AD924100EACFBF /* METMenuViewController.xib */; };
+		0AF1E2FB18AE977100F483AC /* METHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF1E2F918AE977100F483AC /* METHomeViewController.m */; };
+		0AF1E2FC18AE977100F483AC /* METHomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AF1E2FA18AE977100F483AC /* METHomeViewController.xib */; };
+		0AF1E30118AEB4FF00F483AC /* METInventoryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF1E2FF18AEB4FF00F483AC /* METInventoryViewController.m */; };
+		0AF1E30218AEB4FF00F483AC /* METInventoryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AF1E30018AEB4FF00F483AC /* METInventoryViewController.xib */; };
+		0AF1E30718AEC0A400F483AC /* METItemDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF1E30518AEC0A400F483AC /* METItemDetailViewController.m */; };
+		0AF1E30818AEC0A400F483AC /* METItemDetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AF1E30618AEC0A400F483AC /* METItemDetailViewController.xib */; };
+		0AF1E30D18AECCBF00F483AC /* METTextMessageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF1E30B18AECCBF00F483AC /* METTextMessageViewController.m */; };
+		0AF1E30E18AECCBF00F483AC /* METTextMessageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AF1E30C18AECCBF00F483AC /* METTextMessageViewController.xib */; };
+		0AF1E31418AED93400F483AC /* METCallCustomerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0AF1E31218AED93400F483AC /* METCallCustomerViewController.m */; };
+		0AF1E31518AED93400F483AC /* METCallCustomerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0AF1E31318AED93400F483AC /* METCallCustomerViewController.xib */; };
+		191D90CF761C4973803FFB02 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3CE9D5FB73154E90AE914DF0 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A748DEF18AD506800EACFBF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0A748DC718AD506700EACFBF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0A748DCE18AD506700EACFBF;
+			remoteInfo = Metropolitan;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0A748DCF18AD506700EACFBF /* Metropolitan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Metropolitan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A748DD218AD506700EACFBF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		0A748DD418AD506700EACFBF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		0A748DD618AD506700EACFBF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		0A748DDA18AD506700EACFBF /* Metropolitan-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Metropolitan-Info.plist"; sourceTree = "<group>"; };
+		0A748DDC18AD506700EACFBF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0A748DDE18AD506700EACFBF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0A748DE018AD506700EACFBF /* Metropolitan-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Metropolitan-Prefix.pch"; sourceTree = "<group>"; };
+		0A748DE118AD506700EACFBF /* METAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = METAppDelegate.h; sourceTree = "<group>"; };
+		0A748DE218AD506700EACFBF /* METAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = METAppDelegate.m; sourceTree = "<group>"; };
+		0A748DE418AD506700EACFBF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		0A748DEA18AD506800EACFBF /* MetropolitanTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MetropolitanTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0A748DEB18AD506800EACFBF /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		0A748DF318AD506800EACFBF /* MetropolitanTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MetropolitanTests-Info.plist"; sourceTree = "<group>"; };
+		0A748DF518AD506800EACFBF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		0A748DF718AD506800EACFBF /* MetropolitanTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MetropolitanTests.m; sourceTree = "<group>"; };
+		0A748E1218AD924100EACFBF /* METMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = METMenuViewController.h; sourceTree = "<group>"; };
+		0A748E1318AD924100EACFBF /* METMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = METMenuViewController.m; sourceTree = "<group>"; };
+		0A748E1418AD924100EACFBF /* METMenuViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = METMenuViewController.xib; sourceTree = "<group>"; };
+		0AF1E2F818AE977100F483AC /* METHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = METHomeViewController.h; sourceTree = "<group>"; };
+		0AF1E2F918AE977100F483AC /* METHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = METHomeViewController.m; sourceTree = "<group>"; };
+		0AF1E2FA18AE977100F483AC /* METHomeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = METHomeViewController.xib; sourceTree = "<group>"; };
+		0AF1E2FE18AEB4FF00F483AC /* METInventoryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = METInventoryViewController.h; sourceTree = "<group>"; };
+		0AF1E2FF18AEB4FF00F483AC /* METInventoryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = METInventoryViewController.m; sourceTree = "<group>"; };
+		0AF1E30018AEB4FF00F483AC /* METInventoryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = METInventoryViewController.xib; sourceTree = "<group>"; };
+		0AF1E30418AEC0A400F483AC /* METItemDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = METItemDetailViewController.h; sourceTree = "<group>"; };
+		0AF1E30518AEC0A400F483AC /* METItemDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = METItemDetailViewController.m; sourceTree = "<group>"; };
+		0AF1E30618AEC0A400F483AC /* METItemDetailViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = METItemDetailViewController.xib; sourceTree = "<group>"; };
+		0AF1E30A18AECCBF00F483AC /* METTextMessageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = METTextMessageViewController.h; sourceTree = "<group>"; };
+		0AF1E30B18AECCBF00F483AC /* METTextMessageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = METTextMessageViewController.m; sourceTree = "<group>"; };
+		0AF1E30C18AECCBF00F483AC /* METTextMessageViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = METTextMessageViewController.xib; sourceTree = "<group>"; };
+		0AF1E31118AED93400F483AC /* METCallCustomerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = METCallCustomerViewController.h; sourceTree = "<group>"; };
+		0AF1E31218AED93400F483AC /* METCallCustomerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = METCallCustomerViewController.m; sourceTree = "<group>"; };
+		0AF1E31318AED93400F483AC /* METCallCustomerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = METCallCustomerViewController.xib; sourceTree = "<group>"; };
+		3CE9D5FB73154E90AE914DF0 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D51672E519344259863E85A4 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0A748DCC18AD506700EACFBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A748DD518AD506700EACFBF /* CoreGraphics.framework in Frameworks */,
+				0A748DD718AD506700EACFBF /* UIKit.framework in Frameworks */,
+				0A748DD318AD506700EACFBF /* Foundation.framework in Frameworks */,
+				191D90CF761C4973803FFB02 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A748DE718AD506800EACFBF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A748DEC18AD506800EACFBF /* XCTest.framework in Frameworks */,
+				0A748DEE18AD506800EACFBF /* UIKit.framework in Frameworks */,
+				0A748DED18AD506800EACFBF /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A748DC618AD506700EACFBF = {
+			isa = PBXGroup;
+			children = (
+				0A748DD818AD506700EACFBF /* Metropolitan */,
+				0A748DF118AD506800EACFBF /* MetropolitanTests */,
+				0A748DD118AD506700EACFBF /* Frameworks */,
+				0A748DD018AD506700EACFBF /* Products */,
+				D51672E519344259863E85A4 /* Pods.xcconfig */,
+			);
+			sourceTree = "<group>";
+		};
+		0A748DD018AD506700EACFBF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0A748DCF18AD506700EACFBF /* Metropolitan.app */,
+				0A748DEA18AD506800EACFBF /* MetropolitanTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0A748DD118AD506700EACFBF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0A748DD218AD506700EACFBF /* Foundation.framework */,
+				0A748DD418AD506700EACFBF /* CoreGraphics.framework */,
+				0A748DD618AD506700EACFBF /* UIKit.framework */,
+				0A748DEB18AD506800EACFBF /* XCTest.framework */,
+				3CE9D5FB73154E90AE914DF0 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0A748DD818AD506700EACFBF /* Metropolitan */ = {
+			isa = PBXGroup;
+			children = (
+				0A748DE118AD506700EACFBF /* METAppDelegate.h */,
+				0A748DE218AD506700EACFBF /* METAppDelegate.m */,
+				0A748DE418AD506700EACFBF /* Images.xcassets */,
+				0A748DD918AD506700EACFBF /* Supporting Files */,
+				0AF1E30F18AED82500F483AC /* Twilio */,
+				0A748E0118AD553800EACFBF /* View Controllers */,
+			);
+			path = Metropolitan;
+			sourceTree = "<group>";
+		};
+		0A748DD918AD506700EACFBF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A748DDA18AD506700EACFBF /* Metropolitan-Info.plist */,
+				0A748DDB18AD506700EACFBF /* InfoPlist.strings */,
+				0A748DDE18AD506700EACFBF /* main.m */,
+				0A748DE018AD506700EACFBF /* Metropolitan-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A748DF118AD506800EACFBF /* MetropolitanTests */ = {
+			isa = PBXGroup;
+			children = (
+				0A748DF718AD506800EACFBF /* MetropolitanTests.m */,
+				0A748DF218AD506800EACFBF /* Supporting Files */,
+			);
+			path = MetropolitanTests;
+			sourceTree = "<group>";
+		};
+		0A748DF218AD506800EACFBF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0A748DF318AD506800EACFBF /* MetropolitanTests-Info.plist */,
+				0A748DF418AD506800EACFBF /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0A748E0118AD553800EACFBF /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				0AF1E31018AED91D00F483AC /* Call Customer */,
+				0AF1E30918AECC9B00F483AC /* Send Text Message */,
+				0AF1E30318AEC08F00F483AC /* Item Detail */,
+				0A748E0218AD554F00EACFBF /* Home */,
+				0AF1E2FD18AEB4ED00F483AC /* Inventory */,
+				0A748E1118AD922800EACFBF /* Menu */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+		0A748E0218AD554F00EACFBF /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				0AF1E2F818AE977100F483AC /* METHomeViewController.h */,
+				0AF1E2F918AE977100F483AC /* METHomeViewController.m */,
+				0AF1E2FA18AE977100F483AC /* METHomeViewController.xib */,
+			);
+			name = Home;
+			sourceTree = "<group>";
+		};
+		0A748E1118AD922800EACFBF /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				0A748E1218AD924100EACFBF /* METMenuViewController.h */,
+				0A748E1318AD924100EACFBF /* METMenuViewController.m */,
+				0A748E1418AD924100EACFBF /* METMenuViewController.xib */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		0AF1E2FD18AEB4ED00F483AC /* Inventory */ = {
+			isa = PBXGroup;
+			children = (
+				0AF1E2FE18AEB4FF00F483AC /* METInventoryViewController.h */,
+				0AF1E2FF18AEB4FF00F483AC /* METInventoryViewController.m */,
+				0AF1E30018AEB4FF00F483AC /* METInventoryViewController.xib */,
+			);
+			name = Inventory;
+			sourceTree = "<group>";
+		};
+		0AF1E30318AEC08F00F483AC /* Item Detail */ = {
+			isa = PBXGroup;
+			children = (
+				0AF1E30418AEC0A400F483AC /* METItemDetailViewController.h */,
+				0AF1E30518AEC0A400F483AC /* METItemDetailViewController.m */,
+				0AF1E30618AEC0A400F483AC /* METItemDetailViewController.xib */,
+			);
+			name = "Item Detail";
+			sourceTree = "<group>";
+		};
+		0AF1E30918AECC9B00F483AC /* Send Text Message */ = {
+			isa = PBXGroup;
+			children = (
+				0AF1E30A18AECCBF00F483AC /* METTextMessageViewController.h */,
+				0AF1E30B18AECCBF00F483AC /* METTextMessageViewController.m */,
+				0AF1E30C18AECCBF00F483AC /* METTextMessageViewController.xib */,
+			);
+			name = "Send Text Message";
+			sourceTree = "<group>";
+		};
+		0AF1E30F18AED82500F483AC /* Twilio */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Twilio;
+			sourceTree = "<group>";
+		};
+		0AF1E31018AED91D00F483AC /* Call Customer */ = {
+			isa = PBXGroup;
+			children = (
+				0AF1E31118AED93400F483AC /* METCallCustomerViewController.h */,
+				0AF1E31218AED93400F483AC /* METCallCustomerViewController.m */,
+				0AF1E31318AED93400F483AC /* METCallCustomerViewController.xib */,
+			);
+			name = "Call Customer";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0A748DCE18AD506700EACFBF /* Metropolitan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A748DFB18AD506800EACFBF /* Build configuration list for PBXNativeTarget "Metropolitan" */;
+			buildPhases = (
+				89329E00F6024DE59CAB8354 /* Check Pods Manifest.lock */,
+				0A748DCB18AD506700EACFBF /* Sources */,
+				0A748DCC18AD506700EACFBF /* Frameworks */,
+				0A748DCD18AD506700EACFBF /* Resources */,
+				EDC0EE24C8F14CBB8261D069 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Metropolitan;
+			productName = Metropolitan;
+			productReference = 0A748DCF18AD506700EACFBF /* Metropolitan.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0A748DE918AD506800EACFBF /* MetropolitanTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0A748DFE18AD506800EACFBF /* Build configuration list for PBXNativeTarget "MetropolitanTests" */;
+			buildPhases = (
+				0A748DE618AD506800EACFBF /* Sources */,
+				0A748DE718AD506800EACFBF /* Frameworks */,
+				0A748DE818AD506800EACFBF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0A748DF018AD506800EACFBF /* PBXTargetDependency */,
+			);
+			name = MetropolitanTests;
+			productName = MetropolitanTests;
+			productReference = 0A748DEA18AD506800EACFBF /* MetropolitanTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0A748DC718AD506700EACFBF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = MET;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = "Kevin Whinnery";
+				TargetAttributes = {
+					0A748DE918AD506800EACFBF = {
+						TestTargetID = 0A748DCE18AD506700EACFBF;
+					};
+				};
+			};
+			buildConfigurationList = 0A748DCA18AD506700EACFBF /* Build configuration list for PBXProject "Metropolitan" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0A748DC618AD506700EACFBF;
+			productRefGroup = 0A748DD018AD506700EACFBF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0A748DCE18AD506700EACFBF /* Metropolitan */,
+				0A748DE918AD506800EACFBF /* MetropolitanTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0A748DCD18AD506700EACFBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AF1E2FC18AE977100F483AC /* METHomeViewController.xib in Resources */,
+				0AF1E30818AEC0A400F483AC /* METItemDetailViewController.xib in Resources */,
+				0A748E1618AD924100EACFBF /* METMenuViewController.xib in Resources */,
+				0AF1E30218AEB4FF00F483AC /* METInventoryViewController.xib in Resources */,
+				0AF1E30E18AECCBF00F483AC /* METTextMessageViewController.xib in Resources */,
+				0A748DDD18AD506700EACFBF /* InfoPlist.strings in Resources */,
+				0A748DE518AD506700EACFBF /* Images.xcassets in Resources */,
+				0AF1E31518AED93400F483AC /* METCallCustomerViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A748DE818AD506800EACFBF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A748DF618AD506800EACFBF /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		89329E00F6024DE59CAB8354 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		EDC0EE24C8F14CBB8261D069 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A748DCB18AD506700EACFBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A748E1518AD924100EACFBF /* METMenuViewController.m in Sources */,
+				0AF1E30718AEC0A400F483AC /* METItemDetailViewController.m in Sources */,
+				0AF1E2FB18AE977100F483AC /* METHomeViewController.m in Sources */,
+				0A748DDF18AD506700EACFBF /* main.m in Sources */,
+				0AF1E30D18AECCBF00F483AC /* METTextMessageViewController.m in Sources */,
+				0AF1E31418AED93400F483AC /* METCallCustomerViewController.m in Sources */,
+				0AF1E30118AEB4FF00F483AC /* METInventoryViewController.m in Sources */,
+				0A748DE318AD506700EACFBF /* METAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A748DE618AD506800EACFBF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0A748DF818AD506800EACFBF /* MetropolitanTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0A748DF018AD506800EACFBF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0A748DCE18AD506700EACFBF /* Metropolitan */;
+			targetProxy = 0A748DEF18AD506800EACFBF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0A748DDB18AD506700EACFBF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A748DDC18AD506700EACFBF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		0A748DF418AD506800EACFBF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0A748DF518AD506800EACFBF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0A748DF918AD506800EACFBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0A748DFA18AD506800EACFBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0A748DFC18AD506800EACFBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D51672E519344259863E85A4 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Metropolitan/Metropolitan-Prefix.pch";
+				INFOPLIST_FILE = "Metropolitan/Metropolitan-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		0A748DFD18AD506800EACFBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D51672E519344259863E85A4 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Metropolitan/Metropolitan-Prefix.pch";
+				INFOPLIST_FILE = "Metropolitan/Metropolitan-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		0A748DFF18AD506800EACFBF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Metropolitan.app/Metropolitan";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Metropolitan/Metropolitan-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "MetropolitanTests/MetropolitanTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		0A748E0018AD506800EACFBF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Metropolitan.app/Metropolitan";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Metropolitan/Metropolitan-Prefix.pch";
+				INFOPLIST_FILE = "MetropolitanTests/MetropolitanTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0A748DCA18AD506700EACFBF /* Build configuration list for PBXProject "Metropolitan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A748DF918AD506800EACFBF /* Debug */,
+				0A748DFA18AD506800EACFBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A748DFB18AD506800EACFBF /* Build configuration list for PBXNativeTarget "Metropolitan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A748DFC18AD506800EACFBF /* Debug */,
+				0A748DFD18AD506800EACFBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0A748DFE18AD506800EACFBF /* Build configuration list for PBXNativeTarget "MetropolitanTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0A748DFF18AD506800EACFBF /* Debug */,
+				0A748E0018AD506800EACFBF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0A748DC718AD506700EACFBF /* Project object */;
+}
