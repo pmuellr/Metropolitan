@@ -8,8 +8,12 @@
 
 #import "METCallCustomerViewController.h"
 #import "AFHTTPRequestOperationManager.h"
+#import "TwilioClient.h"
 
 @interface METCallCustomerViewController ()
+{
+    TCDevice *device;
+}
 
 -(IBAction)hangup:(id)sender;
 
@@ -17,8 +21,19 @@
 
 @implementation METCallCustomerViewController
 
+-(void)device:(TCDevice *)device didStopListeningForIncomingConnections:(NSError *)error
+{
+    NSLog(@"Error: %@", error);
+}
+
+-(void)connection:(TCConnection *)connection didFailWithError:(NSError *)error
+{
+    NSLog(@"Error: %@", error);
+}
+
 -(void)hangup:(id)sender
 {
+    [device disconnectAll];
     self.onClose();
 }
 
@@ -37,7 +52,13 @@
     
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
     [manager GET:@"http://tranquil-ocean-7196.herokuapp.com/capability" parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
-        NSLog(@"text: %@", responseObject);
+        NSDictionary *dict = (NSDictionary*) responseObject;
+        NSString *token = [dict valueForKey:@"token"];
+        
+        device = [[TCDevice alloc] initWithCapabilityToken:token delegate:self];
+        
+        [device connect:@{@"to":@"+16512080532"} delegate:self];
+        
     } failure:^(AFHTTPRequestOperation *operation, NSError *error) {
         NSLog(@"Error: %@", error);
     }];

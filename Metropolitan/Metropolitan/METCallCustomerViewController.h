@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "TwilioClient.h"
 
 typedef void (^CloseBlock)();
 
-@interface METCallCustomerViewController : UIViewController
+@interface METCallCustomerViewController : UIViewController<TCDeviceDelegate, TCConnectionDelegate>
 
 @property (readwrite, copy) CloseBlock onClose;
 
