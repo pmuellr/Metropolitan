@@ -6,6 +6,8 @@ module.exports = function(app) {
         var capability = new twilio.Capability(config.sid, config.tkn);
         capability.allowClientOutgoing('AP078af4a55e23443001238bb157c32a73');
         response.type('text/plain');
-        response.send(capability.generate());
+        response.send({
+            token:capability.generate()
+        });
     });
 };

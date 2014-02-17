@@ -21,14 +21,27 @@
 
 @implementation METCallCustomerViewController
 
+#pragma mark TCDeviceDelegate
+
 -(void)device:(TCDevice *)device didStopListeningForIncomingConnections:(NSError *)error
 {
     NSLog(@"Error: %@", error);
 }
 
+#pragma mark TCConnectionDelegate
+
+-(void)connectionDidDisconnect:(TCConnection *)connection
+{
+    NSLog(@"disconnected");
+    [[NSOperationQueue mainQueue] addOperationWithBlock:self.onClose];
+    //self.onClose();
+}
+
 -(void)connection:(TCConnection *)connection didFailWithError:(NSError *)error
 {
     NSLog(@"Error: %@", error);
+    [[NSOperationQueue mainQueue] addOperationWithBlock:self.onClose];
+    //self.onClose();
 }
 
 -(void)hangup:(id)sender
