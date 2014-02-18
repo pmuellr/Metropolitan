@@ -11,6 +11,8 @@
 
 @interface METTextMessageViewController () {
     IBOutlet UITextView *text;
+    IBOutlet UIButton *button;
+    IBOutlet UIActivityIndicatorView *ind;
 }
 
 -(IBAction)cancel:(id)sender;
@@ -29,6 +31,9 @@
 
 - (void)sendText:(id)sender
 {
+    button.hidden = YES;
+    ind.hidden = NO;
+    
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
     NSDictionary *parameters = @{@"to": @"+16512080532",
                                  @"body":text.text};
@@ -38,8 +43,8 @@
           success:^(AFHTTPRequestOperation *operation, id responseObject) {
         UIAlertView *alert = [[UIAlertView alloc] initWithTitle:nil
                                                         message:@"Your text has been sent!"
-                                                       delegate:self
-                                              cancelButtonTitle:@"Word." otherButtonTitles:nil];
+                                                       delegate:nil
+                                              cancelButtonTitle:@"OK" otherButtonTitles:nil];
         [alert show];
         NSLog(@"JSON: %@", responseObject);
         self.onClose();

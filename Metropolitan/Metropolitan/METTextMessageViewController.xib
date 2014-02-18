@@ -6,6 +6,8 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="METTextMessageViewController">
             <connections>
+                <outlet property="button" destination="gLS-kY-Gj4" id="cxP-dF-i1C"/>
+                <outlet property="ind" destination="SAV-rv-wXP" id="8BD-4Z-iOS"/>
                 <outlet property="text" destination="dxy-fj-jh8" id="goq-qS-Ksr"/>
                 <outlet property="view" destination="1" id="3"/>
             </connections>
@@ -26,7 +28,7 @@
                     <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="calibratedRGB"/>
                     <nil key="highlightedColor"/>
                 </label>
-                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Hi Robert - your Executive Mustache Trimmer is available! Find it in store here: http://bit.ly/c97sdf" translatesAutoresizingMaskIntoConstraints="NO" id="dxy-fj-jh8">
+                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text="Hi Robert - we hope you're enjoying your Arctic Alltrack Ski Boots! Text us back if you have any questions or concerns." translatesAutoresizingMaskIntoConstraints="NO" id="dxy-fj-jh8">
                     <rect key="frame" x="248" y="49" width="252" height="80"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -55,6 +57,10 @@
                         <action selector="cancel:" destination="-1" eventType="touchUpInside" id="cCO-vg-1WO"/>
                     </connections>
                 </button>
+                <activityIndicatorView hidden="YES" opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" fixedFrame="YES" animating="YES" style="whiteLarge" translatesAutoresizingMaskIntoConstraints="NO" id="SAV-rv-wXP">
+                    <rect key="frame" x="356" y="143" width="37" height="37"/>
+                    <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                </activityIndicatorView>
             </subviews>
             <color key="backgroundColor" red="0.13725490196078433" green="0.13725490196078433" blue="0.13725490196078433" alpha="1" colorSpace="calibratedRGB"/>
             <simulatedStatusBarMetrics key="simulatedStatusBarMetrics"/>

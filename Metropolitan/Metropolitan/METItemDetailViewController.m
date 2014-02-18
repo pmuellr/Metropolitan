@@ -52,7 +52,7 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        self.navigationItem.title = @"Item Details";
+        self.navigationItem.title = @"Client List";
     }
     return self;
 }

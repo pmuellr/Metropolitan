@@ -147,7 +147,6 @@
 				0A748DE218AD506700EACFBF /* METAppDelegate.m */,
 				0A748DE418AD506700EACFBF /* Images.xcassets */,
 				0A748DD918AD506700EACFBF /* Supporting Files */,
-				0AF1E30F18AED82500F483AC /* Twilio */,
 				0A748E0118AD553800EACFBF /* View Controllers */,
 			);
 			path = Metropolitan;
@@ -186,11 +185,11 @@
 			isa = PBXGroup;
 			children = (
 				0AF1E31018AED91D00F483AC /* Call Customer */,
-				0AF1E30918AECC9B00F483AC /* Send Text Message */,
-				0AF1E30318AEC08F00F483AC /* Item Detail */,
 				0A748E0218AD554F00EACFBF /* Home */,
 				0AF1E2FD18AEB4ED00F483AC /* Inventory */,
+				0AF1E30318AEC08F00F483AC /* Item Detail */,
 				0A748E1118AD922800EACFBF /* Menu */,
+				0AF1E30918AECC9B00F483AC /* Send Text Message */,
 			);
 			name = "View Controllers";
 			sourceTree = "<group>";
@@ -243,13 +242,6 @@
 				0AF1E30C18AECCBF00F483AC /* METTextMessageViewController.xib */,
 			);
 			name = "Send Text Message";
-			sourceTree = "<group>";
-		};
-		0AF1E30F18AED82500F483AC /* Twilio */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			name = Twilio;
 			sourceTree = "<group>";
 		};
 		0AF1E31018AED91D00F483AC /* Call Customer */ = {

@@ -5,12 +5,14 @@ var sid = process.env.TWILIO_ACCOUNT_SID,
 
 // If we're running in IBM, pull in Twilio account information from the system
 // environment
+/*
 if (process.env.VCAP_SERVICES) {
     var twilioService = 'Twilio-lxrcq';
     var config = JSON.parse(process.env.VCAP_SERVICES);
     sid = config[twilioService].credentials.accountSID;
     tkn = config[twilioService].credentials.authToken;
 }
+*/
 
 // Export config variables
 exports.sid = sid;

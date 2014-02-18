@@ -8,7 +8,7 @@
 
 #import "METHomeViewController.h"
 #import "METAppDelegate.h"
-#import "METInventoryViewController.h"
+#import "METItemDetailViewController.h"
 #import "PKRevealController.h"
 
 @interface METHomeViewController ()
@@ -24,7 +24,7 @@
 -(void)showInventory:(id)sender
 {
     METAppDelegate *delegate = (METAppDelegate*) [[UIApplication sharedApplication] delegate];
-    METInventoryViewController *vc = [[METInventoryViewController alloc] init];
+    METItemDetailViewController *vc = [[METItemDetailViewController alloc] init];
     [delegate.front pushViewController:vc animated:YES];
     [self.revealController showViewController:delegate.front];
 }
@@ -41,7 +41,7 @@
 {
     self = [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
     if (self) {
-        self.navigationItem.title = @"METROPOLITAN";
+        self.navigationItem.title = @"HOMESTEAD CO.";
     }
     return self;
 }

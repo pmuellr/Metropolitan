@@ -8,7 +8,7 @@
 
 #import "METMenuViewController.h"
 #import "METAppDelegate.h"
-#import "METInventoryViewController.h"
+#import "METItemDetailViewController.h"
 #import "PKRevealController.h"
 
 @interface METMenuViewController () {
@@ -25,7 +25,7 @@
 -(void)showInventory:(id)sender
 {
     METAppDelegate *delegate = (METAppDelegate*) [[UIApplication sharedApplication] delegate];
-    METInventoryViewController *vc = [[METInventoryViewController alloc] init];
+    METItemDetailViewController *vc = [[METItemDetailViewController alloc] init];
     [delegate.front pushViewController:vc animated:YES];
     [self.revealController showViewController:delegate.front];
 }

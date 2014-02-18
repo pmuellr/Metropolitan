@@ -19,7 +19,7 @@
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                 </imageView>
                 <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="xwe-DS-H72">
-                    <rect key="frame" x="167" y="187" width="125" height="161"/>
+                    <rect key="frame" x="527" y="214" width="125" height="161"/>
                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
                     <state key="normal">
@@ -36,6 +36,6 @@
         </view>
     </objects>
     <resources>
-        <image name="MockHome" width="1020" height="699"/>
+        <image name="MockHome" width="1019" height="703"/>
     </resources>
 </document>

@@ -1,0 +1,11 @@
+applications:
+- services:
+  - node-sample:DataCache
+  host: node-sample
+  disk: 1024M
+  name: node-sample
+  command: node app.js
+  path: .
+  domain: ng.bluemix.net
+  mem: 512M
+  instances: 1
