@@ -38,7 +38,7 @@
     NSDictionary *parameters = @{@"to": @"+16512080532",
                                  @"body":text.text};
     
-    [manager POST:@"http://tranquil-ocean-7196.herokuapp.com/sms"
+    [manager POST:@"http://salesassociate.ng.bluemix.net/sms"
        parameters:parameters
           success:^(AFHTTPRequestOperation *operation, id responseObject) {
         UIAlertView *alert = [[UIAlertView alloc] initWithTitle:nil

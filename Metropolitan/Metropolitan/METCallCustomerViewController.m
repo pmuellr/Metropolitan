@@ -64,7 +64,7 @@
     [super viewDidLoad];
     
     AFHTTPRequestOperationManager *manager = [AFHTTPRequestOperationManager manager];
-    [manager GET:@"http://tranquil-ocean-7196.herokuapp.com/capability" parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
+    [manager GET:@"http://salesassociate.ng.bluemix.net/capability" parameters:nil success:^(AFHTTPRequestOperation *operation, id responseObject) {
         NSDictionary *dict = (NSDictionary*) responseObject;
         NSString *token = [dict valueForKey:@"token"];
         
