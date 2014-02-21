@@ -8,7 +8,7 @@ app.get('/', function(request, response) {
     var client = twilio();
 
     client.sendMessage({
-        to:'+16512080532',
+        to:'+16515556666', //this should be your own phone
         from:twilioNumber,
         body:'Yo Pulse! What up homies!'
     }, function(err, message) {
