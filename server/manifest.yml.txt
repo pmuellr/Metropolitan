@@ -1,0 +1,7 @@
+---
+- name: XCITEDemo
+  memory: 128M
+  command: node app
+  env:
+    TWILIO_ACCOUNT_SID: A
+    TWILIO_AUTH_TOKEN : B
